@@ -1,0 +1,11 @@
+def fibonacci(a,b):
+    print(b,end=" ")
+    flag = True
+    while flag :
+        c = a+b
+        a = b
+        b = c
+        if c > 50:
+            break
+        print (c, end=' ')
+fibonacci(0,1)
